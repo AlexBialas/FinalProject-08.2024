@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.background {
+  background-image: url(/images/pexels-chigraph-1464880.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+#first {
+  margin-top: 150px;
+  margin-left: 700px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 40%;
+}
+
+.ourmission {
+  margin-top: 200px;
+  padding: 20px;
+
+  margin-left: 700px;
+  width: 40%;
+}
+
+.Howitworks {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  z-index: 1000;
+  font-size: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu a:hover {
+  background-color: #ff66a3;
+  color: white;
+  border-radius: 5px;
+}
+
+.logo {
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+}
+
+.fa-house {
+  color: black;
+  font-size: 25px;
+}
+
+.fa-user {
+  font-size: 25px;
+}
+
+.fa-utensils {
+  font-size: 25px;
+}
+
+.logo:hover {
+  background-color: #ff66a3;
+  color: white;
+  border-radius: 5px;
+}
+
+#buttonfirst {
+  background: linear-gradient(to bottom, #ffb3cc, #ff66a3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+
+#buttonfirst:hover {
+  background: linear-gradient(to bottom, #ff66a3, #ffb3cc);
+  transform: translateY(-2px);
+  color: black;
+}
+
+#buttonfirst:active {
+  transform: translateY(0);
+  color: black;
+}
+
+.picture1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  color: #ff66a3;
+  font-size: 50px;
+}
+
+.boxescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.boxes {
+  flex: 0 0 23%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boxes img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.boxes .text {
+  margin-top: 10px;
+}
+
+.boxes a {
+  text-decoration: none;
+  /display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: black;
+}
+
+.boxes span {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.boxes:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.boxs {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.boxs a {
+  text-decoration: none;
+  color: white;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.tiktok {
+  background-color: #69c9d0;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.boxs i {
+  font-size: 40px;
+}
+
+.boxs:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 16px;
+  }
+
+  #first,
+  .ourmission {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .boxes {
+    flex: 0 0 100%;
+  }
+
+  .social-media {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxs {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
