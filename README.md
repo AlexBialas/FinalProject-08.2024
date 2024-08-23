@@ -62,9 +62,6 @@ Follow us on our social media platforms to stay updated with the latest culinary
 Thank you for visiting CookwithAlex! Happy cooking!
 
 ![Screenshot from 2024-08-22 19-08-06](https://github.com/user-attachments/assets/70e8b03d-6f94-47e0-a4c7-9063d76b8c36)
-![Screenshot from 2024-08-22 19-08-12](https://github.com/user-attachments/assets/e024ba60-1b44-4859-9028-88da9405077e)
 ![Screenshot from 2024-08-22 19-08-18](https://github.com/user-attachments/assets/6737537c-f6c5-4c55-9307-de87f73c8537)
-![Screenshot from 2024-08-22 19-08-21](https://github.com/user-attachments/assets/26bfb925-446a-4cfc-8bd0-3f59724d592b)
 ![Screenshot from 2024-08-22 19-08-32](https://github.com/user-attachments/assets/9e22d6a6-b5e8-4d97-adcf-17abfd9e50b9)
-![Screenshot from 2024-08-22 19-08-41](https://github.com/user-attachments/assets/fd19958d-5f7a-43b6-baf6-963767163698)
 ![Screenshot from 2024-08-22 19-08-46](https://github.com/user-attachments/assets/8ba91cee-57f5-4376-8840-51a4ca6e6c95)
