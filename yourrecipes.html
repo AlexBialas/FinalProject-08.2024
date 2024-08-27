@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/chef.png" />
+    <title>CookwithAlex</title>
+    <link rel="stylesheet" href="yourrecipes.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Bungee+Tint&family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200..700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul class="menu">
+          <li><a href="store.html">Store</a></li>
+          <li><a href="ranking.html">Ranking</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="yourrecipes.html">Your Recipes</a></li>
+          <li>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="form-container">
+        <h2>Recipe Submission Form</h2>
+        <form>
+          <div class="form-group">
+            <label for="recipe-title">Recipe Title</label>
+            <input type="text" id="recipe-title" name="recipe-title" required />
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="ingredients">Ingredients (one per line)</label>
+            <textarea
+              id="ingredients"
+              name="ingredients"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="directions">Directions (one step per line)</label>
+            <textarea
+              id="directions"
+              name="directions"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="cooking-time">Cooking Time</label>
+            <input type="text" id="cooking-time" name="cooking-time" required />
+          </div>
+          <div class="form-group">
+            <label for="preparing-time">Preparing Time</label>
+            <input
+              type="text"
+              id="preparing-time"
+              name="preparing-time"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer
+      style="text-align: center; padding: 20px; background-color: #f1f1f1"
+    >
+      <p>&copy; 2024 CookwithAlex. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

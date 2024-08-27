@@ -1,8 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  min-height: 800px;
 }
 
 .navbar {
@@ -67,52 +80,28 @@ body {
   border-radius: 5px;
 }
 
-.container {
-  margin-top: 300px;
-  margin-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  background: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #ccc;
-}
-
-h1 {
+h2 {
   text-align: center;
-  color: #333;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  color: #ff66a3;
+  font-size: 50px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.login-container {
+  border: #ff66a3 2px solid;
+  padding: 30px;
+  border-radius: 10px;
 }
 
-th,
-td {
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #ddd;
+input {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-th {
-  background-color: #ff66a3;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tr:hover {
-  background-color: #ddd;
-}
-
-i.fa-trophy {
-  color: gold;
-  font-size: 1.2em;
+button {
+  margin-left: 130px;
+  margin-top: 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {

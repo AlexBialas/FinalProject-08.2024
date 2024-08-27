@@ -133,3 +133,30 @@ img {
 .gallery img:hover {
   transform: scale(3.05);
 }
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1;
+  }
+
+  #hamburger {
+    cursor: pointer;
+  }
+
+  .ourmission {
+    background-color: #ffffffcb;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}
